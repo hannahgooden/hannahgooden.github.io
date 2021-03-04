@@ -1,0 +1,52 @@
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.main {
+  position: relative; 
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  text-shadow: 1px 1px 30px #7a7a7a;
+  animation-delay: 1s;
+}
+
+.column {
+  float: left;
+  flex-grow: 0;
+  flex-basis: 50%;
+}
+
+.greeting { 
+  padding-left: 4%;
+  padding-top: 2%;
+  font-weight: bold;
+}
+
+.about-me {
+  padding-top: 15%;
+  padding-left: 10%;
+  font-size: 1.5rem;
+  text-indent: -10px;
+}
+  
+.big {
+  font-size: 4rem;
+}
+
+a {
+  color: #c93659;
+  text-decoration: none;
+}
